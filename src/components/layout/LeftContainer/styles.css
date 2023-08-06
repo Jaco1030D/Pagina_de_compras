@@ -1,0 +1,13 @@
+.left-container{
+    width: 42.5em;
+    color: #A7A6A6;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 1000px) {
+    .left-container{
+        width: 100%;
+    }
+}
